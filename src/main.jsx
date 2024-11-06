@@ -1,8 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { MisContadores } from './contadores/MisContadores'
-import { ListadoMap } from './ListadoMap'
+import { UsersApp2 } from './UsersApp2'
+// import { UsersApp } from './UsersApp'
+// import { MisContadores } from './contadores/MisContadores'
+// import { ListadoMap } from './ListadoMap'
 // import { ContadorApp2 } from './ContadorApp2'
 // import { ListadoApp } from './ListadoApp'
 // import { ContadorApp } from './ContadorApp'
@@ -17,8 +19,10 @@ createRoot(document.getElementById('root')).render(
     {/* <ContadorApp /> */}
     {/* <ContadorApp2 value={10}/> */}
     {/* <ListadoApp /> */}
-    <ListadoMap />
-    <MisContadores />
+    {/* <ListadoMap /> */}
+    {/* <MisContadores /> */}
+    {/* <UsersApp /> */}
+    <UsersApp2 />
     <hr />
 
   </StrictMode>,
